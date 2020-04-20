@@ -1,0 +1,106 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    font-family: 'Marck Script', cursive;
+}
+
+.fa {
+color:black;
+font-weight: bolder;
+font-size: 1rem;
+}
+
+p, #date {
+    color:black;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    }
+
+body {
+    background-color: 	rgb(253, 231, 103);
+}
+
+.container {
+    border: 0.1rem solid rgb(6, 63, 87);
+    max-width: 20rem;
+    margin: auto;
+    background-color: rgb(7, 70, 98);
+}
+
+.header {
+    height: 10rem;
+    background: url(https://www.happybirthdaymsg.com/wp-content/uploads/2019/09/good-morning-images-with-flowers-5-675x450.jpg);
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    position: relative;
+}
+.clear {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+#date {
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0.5rem;
+}
+li {
+    list-style-type: none;
+}
+
+#list {
+    display: flex;
+    display: inline;
+}
+.item {
+    align-items: baseline;
+    position: relative;
+    margin: 0.2rem 2rem;
+    background-color:	rgb(113, 163, 179);
+}
+.item i,p{
+    flex-direction: row;
+    display: inline-block;
+    padding-left: 0.5rem;
+    
+}
+
+.fa-trash-o {
+    position: absolute;
+    right: 0.5rem;
+    top: 30%;
+}
+
+.add-to-do {
+    margin: 0.2rem 2rem;
+    background-color: 	rgb(113, 163, 179);
+}
+.fa-plus-circle {
+    padding-left: 0.5rem;
+}
+#input {
+    background-color: rgb(113, 163, 179);
+    border: none;
+}
+
+::placeholder {
+    padding-left: 1rem;
+    color: 	rgb(22, 50, 78);
+}
+
+.fa-check-circle {
+    text-decoration: line-through;
+    color: 	rgb(86, 124, 141);
+}
+
+
+.fa-check-circle ~.text {
+    text-decoration: line-through;
+    color: 	rgb(86, 124, 141);
+  }
+.fa-check-circle  ~.fa{
+    color:	rgb(86, 124, 141);
+} 
